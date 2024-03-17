@@ -9,7 +9,7 @@ const Navbar = () => {
   const { setSearchInput } = useJobContext();
 
   return (
-    <nav className="bg-white p-4 flex items-center justify-between">
+    <nav className="bg-gray-600 p-4 flex items-center justify-between">
       <span className="text-gray-500 text-lg font-semibold">Job-Portal</span>
       <div className="relative flex items-center">
         <SearchBar />
